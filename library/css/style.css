@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+      * {
+        font-family: "Cabin";
+        color: #fff;
+        scroll-behavior: smooth;
+      }
+      h3{
+        text-shadow: 1px 1px 10px #fff;
+        font-family: "Permanent Marker";
+      }
+      .title{
+        text-shadow: 1px 1px 10px #fff;
+        font-family: "Permanent Marker";
+      }
+
+      .background{
+        background: linear-gradient(#121212dd, #121212dd) ,url(../../assets/bg-2.png)repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .background_card{
+        background-color: #151515cb;
+      }
+      .mood_bg{
+        background:  linear-gradient(#121212d3, #121212d3), url(../../assets/Mood.png);
+        background-size: cover;
+        background-position: top;
+      }
+      .jikan_bg{
+        background:  linear-gradient(#121212d3, #121212d3), url(../../assets/Jikan.png);
+        background-size: cover;
+        background-position: top;
+      }
+      .shdw {
+        border-radius: 10px;
+        border: 2px solid #fff;
+      }
+
+      .shdw-none{
+        border-radius: 10px;
+        border: 2px solid #fff;
+      }
+      .shdw-contact{
+        border-radius: 10px;
+        border: 2px solid #fff;
+        background-color: #fff;
+      }
+      .shdw-contact:hover{
+        border-radius: 10px;
+        border: 2px solid #fff;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 2px #fff ;
+        transition: ease 0.3ms;
+      }
+
+      .shdw-active{
+        border-radius: 10px;
+        border: 2px solid #fff;
+        box-shadow: 0px 0px 5px 2px #fff;
+      }
+      .shdw:hover {
+        color: #121212;
+        box-shadow: 0px 0px 15px 3px #fff;
+        transition: 0.3s ease;
+      }
+      .secondary{
+          color: #fff;
+      }
+      #list{
+          display: flex;
+          flex-direction: row-reverse;
+      }
+      #list li{
+        justify-self: end;
+          list-style: none;
+          margin-right: 25px;
+      }
+      #list li a{
+          font-weight: 500;
+          color: #fff;
+          text-decoration: none;
+      }
+      #list li a:hover{
+        font-weight: 500;
+        color: #fff;
+        text-shadow: 1px 1px 5px #fff;
+        transition: ease 0.3ms;
+    }
+    .cancel:hover{
+      text-shadow: 1px 1px 5px #fff;
+      transition: ease 0.3ms;
+    }
+
+    .w-80{
+        width: 80%;
+    }
+    .w-90{
+      width: 90%;
+  }
+    .imgscale img:hover{
+      transform: scale(1.2);
+    }
+    .card{
+      background-color: transparent;
+    }
+    .circle{
+      width: 60px;
+      height: 60px;
+      background: #121212dd;;
+      border-radius: 100%;
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      border: 2px solid #fff;
+
+    }
+    .circle:hover{
+      margin-top: 10px;
+      box-shadow: #2e2314 0px 3px 0px 0px;
+      transition: 0.2s ease;
+    }
+    .blend{
+      mix-blend-mode: screen;
+
+    }
+
